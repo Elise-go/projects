@@ -1,0 +1,177 @@
+/* 注册页面专有样式文件 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部部分 start */
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+    /* 这里不能用margin-top,因为会有外边距合并问题 */
+}
+
+/* 头部部分 end */
+
+
+/* 主体部分 start */
+.registerarea {
+    height: 580px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 42px;
+    padding: 0 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form li {
+    margin-bottom: 15px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+}
+
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+
+
+.safe {
+    padding-left: 182px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-top: 20px;
+    padding-left: 109px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    margin-top: 25px;
+    margin-left: 109px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: white;
+}
+
+/* 主体部分 end */
+
+
+/* 底部部分 start */
+.footer {
+    height: 120px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links span {
+    margin: 0 7px;
+    color: #ccc;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+/* 底部部分 end */

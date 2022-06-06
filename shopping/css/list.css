@@ -1,0 +1,171 @@
+/* 列表页专有css */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list li {
+    float: left;
+}
+
+.sk_list li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.sk_cont {
+    float: left;
+}
+
+.sk_cont li {
+    float: left;
+}
+
+.sk_cont li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 47px;
+    font-size: 14px;
+}
+
+.sk_cont li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* 列表主体部分start */
+.sk_bd {
+    margin-top: 12px;
+    margin-bottom: 282px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd li .cont {
+    display: block;
+    width: 290px;
+    height: 410px;
+    padding-left: 14px;
+    border: 1px solid transparent;
+}
+
+.sk_bd li .cont:hover {
+    border: 1px solid #b1191a;
+    border-bottom: none;
+}
+
+.sk_bd li .cont img {
+    margin-top: 22px;
+    margin-left: 66px;
+}
+
+.sk_bd li .cont .name {
+    margin-top: 22px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sk_bd li .buy {
+    display: block;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.sk_bd .cont .mod_price {
+    margin-top: 12px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0;
+}
+
+.mod_price i {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.mod_price .np {
+    margin: 0;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.mod_price .bp {
+    margin-left: 8px;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.cont .sale_info {
+    width: 272px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.cont .sale_info .sale {
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+
+.cont .sale_info .bar {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 5px;
+}
+
+.bar .bar_in {
+    width: 117px;
+    height: 10.5px;
+    background-color: #ed282e;
+    border-radius: 4px 0 0 4px;
+}
+
+.cont .sale_info .rest {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.cont .sale_info .rest i {
+    font-size: 14px;
+    color: #e12228;
+}
+
+/* 列表主体部分end */
