@@ -483,10 +483,10 @@
     display: none;
     position: fixed;
     top: 100px;
-    right: 350px;
+    right: 31px;
     width: 33px;
     height: 75px;
-    background-color: #fbfbfb;
+    background-color: rgba(249, 249, 249, 0.7);
     border: 1px solid #ededed;
     line-height: 30px;
     text-align: center;
@@ -496,6 +496,7 @@
 
 .goBack:hover {
     background-color: #b1191a;
+    border-color: #b1191a;
     color: white;
     cursor: pointer;
 }
