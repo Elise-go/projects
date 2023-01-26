@@ -1,2 +1,2 @@
-# projects
-练习 practice
+# 网购商城页面
+前端开发练习
